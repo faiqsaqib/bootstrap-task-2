@@ -1,0 +1,858 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="#" type="image/x-icon">
+    
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <html>
+    <body>
+
+       <div class="container-fluid bg-dark">
+     <nav class="navbar" style="background: #000000df;">
+        <div class="container-fluid px-5">
+          <img class="img-fluid px-4" src="/nav-log-white.png" alt="">
+          <button class="navbar-toggler" style="background: #fff;" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Contents</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Service</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Portfolio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Blog</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                  </li>
+              </ul>
+              <form class="d-flex mt-3" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+      
+
+    <div class="container-fluid">
+         <!--  banner  -->
+        <div class="row justify-content-center bg-dark" id="banner"> 
+            
+            <div class="col-md-4 col-11 ">
+                <img src="/hero-man-dark.png" class="img-fluid" alt="" id="banner-image">
+            </div>
+
+            <div class="col-md-6 col-11" id="banner-text">
+                <h4 style="font-style: italic; color:orangered;">HELLO I'M</h1>
+                <h1 style="font-size: 4rem;color: #fff;">Maras Faron!</h1>
+                <h3 style="color: #fff;">UX/UI Designer and Developer</h3>
+                <p style="color: #fff;">There are many variations of sum availabled in alley of type and<br> scrambled it some.</p>
+                <div class="col-md-10 d-flex justify-content-between col-11">
+                <button type="button" class="btn btn-outline-secondary py-2 px-5" style="border-radius: 40px; font-size: larger; border: 1px solid orangered;color: orangered;">About Me</button>
+                <h3 style="align-self: center;color: #fff;">Follow Me:</h3>
+                <i class="bi bi-facebook" style="align-self: center;font-size: larger;margin: 0 5px;color: orangered;"></i>
+                <i class="bi bi-whatsapp" style="align-self: center;font-size: larger;margin: 0 5px;color: orangered;"></i>
+                <i class="bi bi-twitter" style="align-self: center;font-size: larger;margin: 0 5px;color: orangered;"></i>
+                <i class="bi bi-instagram" style="align-self: center;font-size: larger;margin: 0 5px;color: orangered;"></i>
+                </div>
+                </div>
+        </div>
+        <br>
+        <br>
+        <hr>
+
+         <div class="row px-5 d-flex bg-dark text-white justify-content-between align-item-center" id="banner"> 
+            <div class="col-md-5 col-12" id="banner-text1">
+                <h5 style="color: orangered;">CREATIVE SERVICE</h5>
+                <h1>What can i do for service clients you</h1>
+            </div>
+
+            <div class="col-md-4 col-12" id="banner-text2" style="width: 27rem;">
+                
+                <p>Promote your blog posts, case udie, and product ouncems with the the branded videoscustomers coming back for services Makes best effort.
+
+                </p>
+            </div>
+
+            <div class="col-lg-4 col-11 pt-4">
+                <div class="card" style="width: 23rem;">
+                    <div class="card-body">
+                        <div class="circle " style="width: 80px;height: 80px;background: lightgreen;border-radius: 50%;"><i class="bi bi-file-text-fill" style="font-size: 2.3rem;margin-left: 1.3rem;margin-top: 0.7rem;position: absolute;color: #fff;"></i></div>
+                      <h4 class="card-subtitle mb-2 text-body-secondary py-2">Web Development</h4>
+                      <p class="card-text">Promote your blog posts, case udie,<br> and product ouncems nts with the the<br> branded videos.</p>
+                      <li style="list-style: square; color: lightgreen;"><a class="link-color1"href="services.html" style="text-decoration: none;color: lightgreen;">Read More</a></li>
+                    </div>
+                  </div>
+            </div>
+
+            <div class="col-lg-4 col-11 pt-4">
+                <div class="card" style="width: 23rem;">
+                    <div class="card-body">
+                        <div class="circle" style="width: 80px;height: 80px;background: orangered;border-radius: 50%;"><i class="bi bi-cc-circle-fill" style="font-size: 2.3rem;margin-left: 1.3rem;margin-top: 0.7rem;position: absolute;color: #fff;"></i></div>
+                      <h4 class="card-subtitle mb-2 text-body-secondary py-2">Web Development</h4>
+                      <p class="card-text">Promote your blog posts, case udie,<br> and product ouncems nts with the the<br> branded videos.</p>
+                      <li style="list-style: square; color: orangered;"><a class="link-color1"href="services.html" style="text-decoration: none;color:orangered;">Read More</a></li>
+                        
+                    </div>
+                  </div>
+               
+            </div>
+
+            <div class="col-lg-4 col-11 pt-4 ">
+                <div class="card" style="width: 23rem;">
+                    <div class="card-body">
+                        <div class="circle" style="width: 80px;height: 80px;background: blue;border-radius: 50%;"><i class="bi bi-cc-circle-fill" style="font-size: 2.3rem;margin-left: 1.3rem;margin-top: 0.7rem;position: absolute;color: #fff;"></i></div>
+                      <h4 class="card-subtitle mb-2 text-body-secondary py-2">Web Development</h4>
+                      <p class="card-text">Promote your blog posts, case udie,<br> and product ouncems nts with the the<br> branded videos.</p>
+                      <li style="list-style: square; color: blue;"><a class="link-color1"href="services.html" style="text-decoration: none;color:blue;">Read More</a></li>
+                       
+                    </div>
+                  </div>
+            </div>
+
+            <div class="col-lg-4 col-11 pt-4">
+                <div class="card" style="width: 23rem;">
+                    <div class="card-body">
+                        <div class="circle" style="width: 80px;height: 80px;background: blue;border-radius: 50%;"><i class="bi bi-headphones" style="font-size: 2.3rem;margin-left: 1.3rem;margin-top: 0.7rem;position: absolute;color: #fff;"></i></div>
+                        <h4 class="card-subtitle mb-2 text-body-secondary py-2">Web Development</h4>
+                        <p class="card-text">Promote your blog posts, case udie,<br> and product ouncems nts with the the<br> branded videos.</p>
+                        <li style="list-style: square; color: blue;"><a class="link-color1"href="services.html" style="text-decoration: none;color:blue;">Read More</a></li>
+                      
+                    </div>
+                  </div>
+            </div>
+
+            <div class="col-lg-4 col-11 pt-4">
+                <div class="card" style="width: 23rem;">
+                    <div class="card-body">
+                        <div class="circle" style="width: 80px;height: 80px;background: palevioletred;border-radius: 50%;"><i class="bi bi-lightbulb-fill" style="font-size: 2.3rem;margin-left: 1.3rem;margin-top: 0.7rem;position: absolute;color: #fff;"></i></div>
+                        <h4 class="card-subtitle mb-2 text-body-secondary py-2">Web Development</h4>
+                        <p class="card-text">Promote your blog posts, case udie,<br> and product ouncems nts with the the<br> branded videos.</p>
+                        <li style="list-style: square; color:palevioletred;"><a class="link-color1"href="services.html" style="text-decoration: none;color:palevioletred;">Read More</a></li>
+                     
+                    </div>
+                  </div>
+            </div>
+
+            <div class="col-lg-4 col-11 pt-4">
+                <div class="card" style="width: 23rem;">
+                    <div class="card-body">
+                        <div class="circle" style="width: 80px;height: 80px;background: plum;border-radius: 50%;"><i class="bi bi-car-front-fill" style="font-size: 2.3rem;margin-left: 1.3rem;margin-top: 0.7rem;position: absolute;color: #fff;"></i></div>
+                        <h4 class="card-subtitle mb-2 text-body-secondary py-2">Web Development</h4>
+                        <p class="card-text">Promote your blog posts, case udie,<br> and product ouncems nts with the the<br> branded videos.</p>
+                        <li style="list-style: square; color:plum;"><a class="link-color1"href="services.html" style="text-decoration: none;color:plum;">Read More</a></li>
+                    
+                    </div>
+                  </div>
+            </div>
+
+        </div>
+        <br>
+        <br>
+        <hr>
+
+
+
+
+        <div class="row justify-content-center bg-dark text-white" id="banner"> 
+            <div class="col-md-6 col-11 px-5" id="banner-text1">
+                <h4 style="color: orangered;">About Me</h4>
+                <h1 style="color: #fff;font-weight: 700;">I can design world for leading ui/ux</h1>
+                <br>
+                <h4 style="color: orangered;">PERSONAL INFO:</h4>
+                <div class="col-md-11 pt-4 justify-content-between col-12 d-flex">
+                <div class="col-md-5">
+                <li class="list-group-item">
+                    <input class="form-check-input me-1" type="radio" name="listGroupRadio" value="" id="firstRadio" checked>
+                    <label class="form-check-label" for="firstRadio">First Name: Maras</label>
+                </li>
+                <br>
+                <li class="list-group-item">
+                    <input class="form-check-input me-1" type="radio" name="listGroupRadio" value="" id="firstRadio" checked>
+                    <label class="form-check-label" for="firstRadio">Address: Dubai</label>
+                </li>
+                <br>
+                <li class="list-group-item">
+                    <input class="form-check-input me-1" type="radio" name="listGroupRadio" value="" id="firstRadio" checked>
+                    <label class="form-check-label" for="firstRadio">Age: 24 Years</label>
+                </li>
+                <br>
+                <li class="list-group-item">
+                    <input class="form-check-input me-1" type="radio" name="listGroupRadio" value="" id="firstRadio" checked>
+                    <label class="form-check-label" for="firstRadio">Nationality: Tunisian</label>
+                </li>
+                <br>
+                <li class="list-group-item">
+                    <input class="form-check-input me-1" type="radio" name="listGroupRadio" value="" id="firstRadio" checked>
+                    <label class="form-check-label" for="firstRadio">Freelance: Available</label>
+                </li>
+                </div>
+                <div class="col-md-6">
+                    <li class="list-group-item">
+                        <input class="form-check-input me-1" type="radio" name="listGroupRadio" value="" id="firstRadio" checked>
+                        <label class="form-check-label" for="firstRadio">Last Name: Faron</label>
+                    </li>
+                    <br>
+                    <li class="list-group-item">
+                        <input class="form-check-input me-1" type="radio" name="listGroupRadio" value="" id="firstRadio" checked>
+                        <label class="form-check-label" for="firstRadio">Phone: +28921184010</label>
+                    </li>
+                    <br>
+                    <li class="list-group-item">
+                        <input class="form-check-input me-1" type="radio" name="listGroupRadio" value="" id="firstRadio" checked>
+                        <label class="form-check-label" for="firstRadio">Email: you@mail.com</label>
+                    </li>
+                    <br>
+                    <li class="list-group-item">
+                        <input class="form-check-input me-1" type="radio" name="listGroupRadio" value="" id="firstRadio" checked>
+                        <label class="form-check-label" for="firstRadio">Skype: Roben.Boris</label>
+                    </li>
+                    <br>
+                    <li class="list-group-item">
+                        <input class="form-check-input me-1" type="radio" name="listGroupRadio" value="" id="firstRadio" checked>
+                        <label class="form-check-label" for="firstRadio">Languages: French, English</label>
+                    </li>
+                    </div>
+                </div>
+                <br>
+                <br>
+
+                <button type="button" class="btn btn-primary px-5 py-2" style="border-radius: 30px;font-size: larger;background: orangered;border: none;">Hire Me</button>
+
+
+
+            </div>
+            <div class="col-md-6 col-11 ">
+                <img src="/about.png" class="img-fluid" alt="" id="banner-image">
+                <div style="text-align:center;margin-left:-40px;font-size:5rem; font-weight: 900;color: orangered;">27+
+                    <br>
+                   <p style="font-size: 2rem; margin-top: -20px;color: #fff;"> Experience Working</p>
+                </div>
+            </div>
+            
+        </div>
+        <br>
+        <br>
+        <hr>
+
+
+
+         <div class=" row mx-4 pt-3 bg-dark text-center row-cols-sm-4"> 
+            <br>
+            <br>
+
+            <div class="p-3 py-5 bg-opacity-10 border border-top-0 border-info border-start-0">
+                <img src="/dark-log-1.png" class="img-fluid" alt="">
+              </div>
+              <div class="p-3 py-5 bg-opacity-10 border border-top-0 border-info border-start-0">
+                <img src="/dark-log-2.png" class="img-fluid" alt="">
+              </div>
+              <div class="p-3 py-5 bg-opacity-10 border border-top-0 border-info border-start-0">
+                <img src="/dark-log-2.png" class="img-fluid" alt="">
+              </div>
+              <div class="p-3 py-5 bg-opacity-10 border border-top-0 border-end-0 border-info border-start-0">
+                <img src="/dark-log-2.png" class="img-fluid" alt="">
+              </div>
+
+              <div class="p-3 py-5 bg-opacity-10 border border-top-0 border-info border-start-0 border-bottom-0">
+                <img src="/dark-log-1.png" class="img-fluid" alt="">
+              </div>
+              <div class="p-3 py-5 bg-opacity-10 border border-top-0 border-info border-start-0 border-bottom-0">
+                <img src="/dark-log-2.png" class="img-fluid" alt="">
+              </div>
+              <div class="p-3 py-5 bg-opacity-10 border border-top-0 border-info border-start-0 border-bottom-0">
+                <img src="/dark-log-2.png" class="img-fluid" alt="">
+              </div>
+              <div class="p-3 py-5 bg-opacity-10 border border-top-0 border-end-0 border-info border-start-0 border-bottom-0">
+                <img src="/dark-log-2.png " class="img-fluid" alt="">
+              </div>
+          </div>
+
+
+
+        </div>
+        <br>
+        <br>
+        <hr>
+
+
+
+
+          <div class="row px-5 text-white bg-dark d-flex flex-wrap justify-content-between align-item-center" id="banner">  
+            <div class="col-md-5 col-11" id="banner-text1">
+                <h5>EXPERIENCE AND EDUCATION</h5>
+                <h1>Resume of Experience and Education</h1>
+             </div>  
+
+             <div class="col-md-4 col-11" id="banner-text2" style="width: 27rem;"> 
+                
+                <p>Promote your blog posts, case udie, and product ouncems with the the branded videoscustomers coming back for services Makes best effort.
+
+                </p>
+             </div> 
+             
+            <div class=" col-md-12 col-6 resume__section--inner d-flex">
+                <div class="resume__step">
+                    <div class="border__position--style"> </div>
+                    <div class="resume__items">
+                        <div class="border__round"></div>
+                        <div class="resume__items--inner d-flex">
+                            <span class="resume__icons">
+                                <svg width="25" height="40" fill="currentColor" stroke="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M184 48H328c4.4 0 8 3.6 8 8V96H176V56c0-4.4 3.6-8 8-8zm-56 8V96H64C28.7 96 0 124.7 0 160v96H192 320 512V160c0-35.3-28.7-64-64-64H384V56c0-30.9-25.1-56-56-56H184c-30.9 0-56 25.1-56 56zM512 288H320v32c0 17.7-14.3 32-32 32H224c-17.7 0-32-14.3-32-32V288H0V416c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V288z"></path></svg>                                    
+                            </span>
+                            <div class="resume__content">
+                                <div class="resume__content--top d-flex align-items-center mb-10">
+                                    <h3 class="resume__content--title">API DEVELOPER</h3>
+                                    <span class="resume__content--subtitle">Shopify</span>
+                                </div>
+                                <p class="resume__content--desc mb-20">Promote your blog posts, case udie, and product ouncems nts with thehe branded videos.</p>
+                                <span class="resume__date">2021</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="resume__items">
+                        <div class="border__round"></div>
+                        <div class="resume__items--inner d-flex">
+                            <span class="resume__icons">
+                                <svg width="25" height="40" fill="currentColor" stroke="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M184 48H328c4.4 0 8 3.6 8 8V96H176V56c0-4.4 3.6-8 8-8zm-56 8V96H64C28.7 96 0 124.7 0 160v96H192 320 512V160c0-35.3-28.7-64-64-64H384V56c0-30.9-25.1-56-56-56H184c-30.9 0-56 25.1-56 56zM512 288H320v32c0 17.7-14.3 32-32 32H224c-17.7 0-32-14.3-32-32V288H0V416c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V288z"></path></svg>                                    
+                            </span>
+                            <div class="resume__content">
+                                <div class="resume__content--top d-flex align-items-center mb-10">
+                                    <h3 class="resume__content--title">WEB DEVELOPER</h3>
+                                    <span class="resume__content--subtitle">ENVATO</span>
+                                </div>
+                                <p class="resume__content--desc mb-20">Promote your blog posts, case udie, and product ouncems nts with thehe branded videos.</p>
+                                <span class="resume__date">2017</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="resume__items">
+                        <div class="border__round"></div>
+                        <div class="resume__items--inner d-flex">
+                            <span class="resume__icons">
+                                <svg width="25" height="40" fill="currentColor" stroke="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M184 48H328c4.4 0 8 3.6 8 8V96H176V56c0-4.4 3.6-8 8-8zm-56 8V96H64C28.7 96 0 124.7 0 160v96H192 320 512V160c0-35.3-28.7-64-64-64H384V56c0-30.9-25.1-56-56-56H184c-30.9 0-56 25.1-56 56zM512 288H320v32c0 17.7-14.3 32-32 32H224c-17.7 0-32-14.3-32-32V288H0V416c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V288z"></path></svg>                                    
+                            </span>
+                            <div class="resume__content"> 
+                                <div class="resume__content--top d-flex align-items-center mb-10">
+                                    <h3 class="resume__content--title">UI/UX DESIGNER</h3>
+                                    <span class="resume__content--subtitle">UDEMY</span>
+                                </div>
+                                <p class="resume__content--desc mb-20">Promote your blog posts, case udie, and product ouncems nts with thehe branded videos.</p>
+                                <span class="resume__date">2014</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="resume__step">
+                    <div class="border__position--style"> </div>
+                    <div class="resume__items">
+                        <div class="border__round"></div>
+                        <div class="resume__items--inner d-flex">
+                            <span class="resume__icons">
+                                <svg width="25" height="44" fill="currentColor" stroke="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path d="M320 32c-8.1 0-16.1 1.4-23.7 4.1L15.8 137.4C6.3 140.9 0 149.9 0 160s6.3 19.1 15.8 22.6l57.9 20.9C57.3 229.3 48 259.8 48 291.9v28.1c0 28.4-10.8 57.7-22.3 80.8c-6.5 13-13.9 25.8-22.5 37.6C0 442.7-.9 448.3 .9 453.4s6 8.9 11.2 10.2l64 16c4.2 1.1 8.7 .3 12.4-2s6.3-6.1 7.1-10.4c8.6-42.8 4.3-81.2-2.1-108.7C90.3 344.3 86 329.8 80 316.5V291.9c0-30.2 10.2-58.7 27.9-81.5c12.9-15.5 29.6-28 49.2-35.7l157-61.7c8.2-3.2 17.5 .8 20.7 9s-.8 17.5-9 20.7l-157 61.7c-12.4 4.9-23.3 12.4-32.2 21.6l159.6 57.6c7.6 2.7 15.6 4.1 23.7 4.1s16.1-1.4 23.7-4.1L624.2 182.6c9.5-3.4 15.8-12.5 15.8-22.6s-6.3-19.1-15.8-22.6L343.7 36.1C336.1 33.4 328.1 32 320 32zM128 408c0 35.3 86 72 192 72s192-36.7 192-72L496.7 262.6 354.5 314c-11.1 4-22.8 6-34.5 6s-23.5-2-34.5-6L143.3 262.6 128 408z"></path></svg>                                    
+                            </span>
+                            <div class="resume__content">
+                                <div class="resume__content--top d-flex align-items-center mb-10">
+                                    <h3 class="resume__content--title">Software Engineer</h3>
+                                    <span class="resume__content--subtitle">CAMBRIDGE UNIVERSITY</span>
+                                </div>
+                                <p class="resume__content--desc mb-20">Promote your blog posts, case udie, and product ouncems nts with thehe branded videos.</p>
+                                <span class="resume__date">2020</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="resume__items">
+                        <div class="border__round"></div>
+                        <div class="resume__items--inner d-flex">
+                            <span class="resume__icons">
+                                <svg width="25" height="44" fill="currentColor" stroke="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path d="M320 32c-8.1 0-16.1 1.4-23.7 4.1L15.8 137.4C6.3 140.9 0 149.9 0 160s6.3 19.1 15.8 22.6l57.9 20.9C57.3 229.3 48 259.8 48 291.9v28.1c0 28.4-10.8 57.7-22.3 80.8c-6.5 13-13.9 25.8-22.5 37.6C0 442.7-.9 448.3 .9 453.4s6 8.9 11.2 10.2l64 16c4.2 1.1 8.7 .3 12.4-2s6.3-6.1 7.1-10.4c8.6-42.8 4.3-81.2-2.1-108.7C90.3 344.3 86 329.8 80 316.5V291.9c0-30.2 10.2-58.7 27.9-81.5c12.9-15.5 29.6-28 49.2-35.7l157-61.7c8.2-3.2 17.5 .8 20.7 9s-.8 17.5-9 20.7l-157 61.7c-12.4 4.9-23.3 12.4-32.2 21.6l159.6 57.6c7.6 2.7 15.6 4.1 23.7 4.1s16.1-1.4 23.7-4.1L624.2 182.6c9.5-3.4 15.8-12.5 15.8-22.6s-6.3-19.1-15.8-22.6L343.7 36.1C336.1 33.4 328.1 32 320 32zM128 408c0 35.3 86 72 192 72s192-36.7 192-72L496.7 262.6 354.5 314c-11.1 4-22.8 6-34.5 6s-23.5-2-34.5-6L143.3 262.6 128 408z"></path></svg>                                     
+                            </span>
+                            <div class="resume__content">
+                                <div class="resume__content--top d-flex align-items-center mb-10">
+                                    <h3 class="resume__content--title">Master's Degree</h3>
+                                    <span class="resume__content--subtitle">OXFORD UNIVERSITY</span>
+                                </div>
+                                <p class="resume__content--desc mb-20">Promote your blog posts, case udie, and product ouncems nts with thehe branded videos.</p>
+                                <span class="resume__date">2018</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="resume__items">
+                        <div class="border__round"></div>
+                        <div class="resume__items--inner d-flex">
+                            <span class="resume__icons">
+                                <svg width="25" height="44" fill="currentColor" stroke="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path d="M320 32c-8.1 0-16.1 1.4-23.7 4.1L15.8 137.4C6.3 140.9 0 149.9 0 160s6.3 19.1 15.8 22.6l57.9 20.9C57.3 229.3 48 259.8 48 291.9v28.1c0 28.4-10.8 57.7-22.3 80.8c-6.5 13-13.9 25.8-22.5 37.6C0 442.7-.9 448.3 .9 453.4s6 8.9 11.2 10.2l64 16c4.2 1.1 8.7 .3 12.4-2s6.3-6.1 7.1-10.4c8.6-42.8 4.3-81.2-2.1-108.7C90.3 344.3 86 329.8 80 316.5V291.9c0-30.2 10.2-58.7 27.9-81.5c12.9-15.5 29.6-28 49.2-35.7l157-61.7c8.2-3.2 17.5 .8 20.7 9s-.8 17.5-9 20.7l-157 61.7c-12.4 4.9-23.3 12.4-32.2 21.6l159.6 57.6c7.6 2.7 15.6 4.1 23.7 4.1s16.1-1.4 23.7-4.1L624.2 182.6c9.5-3.4 15.8-12.5 15.8-22.6s-6.3-19.1-15.8-22.6L343.7 36.1C336.1 33.4 328.1 32 320 32zM128 408c0 35.3 86 72 192 72s192-36.7 192-72L496.7 262.6 354.5 314c-11.1 4-22.8 6-34.5 6s-23.5-2-34.5-6L143.3 262.6 128 408z"></path></svg>                                     
+                            </span>
+                            <div class="resume__content">
+                                <div class="resume__content--top d-flex align-items-center mb-10">
+                                    <h3 class="resume__content--title">Bachelor's Degree</h3>
+                                    <span class="resume__content--subtitle">KIEV UNIVERSITY</span>
+                                </div>
+                                <p class="resume__content--desc mb-20">Promote your blog posts, case udie, and product ouncems nts with thehe branded videos.</p>
+                                <span class="resume__date">2015</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> 
+        <br> 
+         <br> 
+         <br> 
+        <hr> 
+
+         <div class="row px-5 bg-dark text-white d-flex justify-content-between align-item-center" id="banner"> 
+            <div class="col-md-5 col-12" style="padding-left: 30px;" id="banner-text1">
+                <h5>SKILLs</h5>
+                <h1>Skill of Best Masters Software Skills.</h1>
+            </div> 
+
+            <div class="col-md-4 col-12 " id="banner-text2" style="width: 27rem;">
+                
+                <p>Promote your blog posts, case udie, and product ouncems with the the branded videoscustomers coming back for services Makes best effort.
+
+                </p>
+            </div>
+
+            <div class="skills__section--inner d-flex" >
+                <div class="skills__step">
+                    <div class="skills__items">
+                        <div class="skills__text">
+                            <span class="skills__name">Node.js</span>
+                            <span class="skills__count width_60">60%</span>
+                        </div>
+                        <div class="skills__field width_60">
+                            
+                        </div>
+                    </div>
+                    <div class="skills__items">
+                        <div class="skills__text">
+                            <span class="skills__name">JavaScript</span>
+                            <span class="skills__count width_75">75%</span>
+                        </div>
+                        <div class="skills__field width_75">
+                            
+                        </div>
+                    </div>
+                    <div class="skills__items">
+                        <div class="skills__text">
+                            <span class="skills__name">Web Design</span>
+                            <span class="skills__count width_90">90%</span>
+                        </div>
+                        <div class="skills__field">
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="skills__step">
+                    <div class="skills__items">
+                        <div class="skills__text">
+                            <span class="skills__name">HTML</span>
+                            <span class="skills__count width_100">100%</span>
+                        </div>
+                        <div class="skills__field width_100">
+                            
+                        </div>
+                    </div>
+                    <div class="skills__items">
+                        <div class="skills__text">
+                            <span class="skills__name">CSS</span>
+                            <span class="skills__count width_90">90%</span>
+                        </div>
+                        <div class="skills__field width_90">
+                            
+                        </div>
+                    </div>
+                    <div class="skills__items">
+                        <div class="skills__text">
+                            <span class="skills__name">React.js</span>
+                            <span class="skills__count width_70">70%</span>
+                        </div>
+                        <div class="skills__field width_70">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <br>
+            <br>
+            <hr>
+
+
+
+
+            
+         <div class="row px-5 d-flex bg-dark text-white justify-content-evenly align-item-center" id="banner">  
+            <div class="col-md-5 col-12" id="banner-text1">
+                <h5 style="color: orangered;">PORTFOLIO</h5>
+                <h1>Never compromise for portfolio quality</h1>
+            </div> 
+
+            <div class="col-md-4 col-12 " id="banner-text2" style="width: 27rem;">
+                
+                <p>Promote your blog posts, case udie, and product ouncems with the the branded videoscustomers coming back for services Makes best effort.
+
+                </p>
+            </div>
+
+            <div class="col-md-12 pt-4 mt-3 col-12 text-center">
+                <a style="margin: 0px 20px; text-decoration: none;font-size: large; color: orangered;" href="#">Show All</a>
+                <a style="margin: 0px 20px; text-decoration: none;font-size: large;color: #fff;" href="#">Web</a>
+                <a style="margin: 0px 20px; text-decoration: none;font-size: large;color: #fff;" href="#">Graphics</a>
+                <a style="margin: 0px 20px; text-decoration: none;font-size: large;color: #fff;" href="#">Development</a>
+                <a  style="text-decoration: none;font-size: large;color: #fff;" href="#">Mobile</a>
+            </div>
+
+            <div class="col-md-12 mx-5 px-5 div-two ">
+                 <figure class="gallery_item gallery_item--1"> 
+                    <img src="/portfolio1.png" class="gallery__img" style="width: 100%;height: 100%;" alt="Image 1">
+                </figure>
+                <figure class="gallery_item gallery_item--1"> 
+                    <img src="/portfolio2.png" class="gallery__img" style="width: 100%;height: 100%;" alt="Image 1">
+                 </figure> 
+                <figure class="gallery_item gallery_item--1">
+                    <img src="/portfolio3.png" class="gallery__img" style="width: 100%;height: 100%;" alt="Image 1">
+                </figure>
+                <figure class="gallery_item gallery_item--1">
+                    <img src="/portfolio5.png" class="gallery__img" style="width: 100%;height: 100%;" alt="Image 1">
+                </figure>
+                <figure class="gallery_item gallery_item--1">
+                    <img src="/portfolio3.png" class="gallery__img" style="width: 100%;height: 100%;" alt="Image 1">
+                </figure>
+                <figure class="gallery_item gallery_item--1">
+                    <img src="/portfolio6.png" class="gallery__img" style="width: 100%;height: 100%;" alt="Image 1">
+                </figure>
+                <figure class="gallery_item gallery_item--1">
+                    <img src="/portfolio8.png" class="gallery__img" style="width: 100%;height: 100%;" alt="Image 1">
+                </figure>
+                <figure class="gallery_item gallery_item--1">
+                    <img src="/portfolio3.png" class="gallery__img" style="width: 100%;height: 100%;" alt="Image 1">
+                </figure>
+                <figure class="gallery_item gallery_item--1">
+                    <img src="/portfolio9.png" class="gallery__img" style="width: 100%;height: 100%;" alt="Image 1">
+                </figure>
+        </div>
+       </div>
+          <br>
+        <hr>
+
+        
+        <div id="carouselExampleCaptions" class="carousel slide text-center text-white bg-dark">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <h4 style="color:orangered;">Testimonials</h4>
+                <h1 style="color:#fff;">We are people say me</h1>
+                <br>
+                <br>
+                <h5 style="font-style: italic;color: gray;">We understand the importance of approaching each work integrally and<br>believe in the power of simple and we say easy cation growth.</h5>
+                <br>
+                <img src="/testimonial-author-thumb.png" alt="">
+                <h4>Romes Barson</h4>
+                <p>Manager</p>
+                <br>
+                <br>
+                <div class="carousel-caption d-none d-md-block">
+                    
+                </div>
+              </div>
+              <div class="carousel-item">
+                <h4 style="color: orangered;">Testimonials</h4>
+                <h1>We are people say me</h1>
+                <br>
+                <br>
+                <h5 style="font-style: italic;color: gray;">We understand the importance of approaching each work integrally and<br>believe in the power of simple and we say easy cation growth.</h5>
+                <br>
+                <img src="/testimonial-author-thumb.png" alt="">
+                <h4>Romes Barson</h4>
+                <p>Manager</p>
+                <br>
+                <br>
+              
+                <div class="carousel-caption d-none d-md-block">
+                </div>
+              </div>
+              <div class="carousel-item">
+                <h4 style="color: orangered;">Testimonials</h4>
+                <h1>We are people say me</h1>
+                <br>
+                <br>
+                <h5 style="font-style: italic;color: gray;">We understand the importance of approaching each work integrally and<br>believe in the power of simple and we say easy cation growth.</h5>
+                <br>
+                <img src="/testimonial-author-thumb.png" alt="">
+                <h4>Romes Barson</h4>
+                <p>Manager</p>
+                <br>
+                <br>
+               
+                <div class="carousel-caption d-none d-md-block">
+                
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          <br>
+          <hr>
+
+          <div class="row text-white bg-dark justify-content-center align-item-center" id="banner">
+            <div class="col-md-6 col-11" id="banner-text3">
+                <h4 style="color: orangered;">CONTACT</h4>
+                <h1>Get Contact Work</h1>
+                <p>Promote your blog posts, case udie, and product ouncems with the the<br> branded videoscustomers coming back for services Makes best effort.</p>
+                  <div class="col-md-10 col-11 d-flex justify-content-between">
+                    <label for="inputPassword2" class="visually-hidden">text</label>
+                    <input type="password" class="form-control" style="width: 250px;" id="inputPassword2" placeholder="Your Name">
+                    <label for="inputPassword2" class="visually-hidden">text</label>
+                    <input type="password" class="form-control" style="width: 250px;" id="inputPassword2" placeholder="Your Email">
+                    </div>
+
+                    <label for="exampleFormControlTextarea1" class="form-label"></label>
+  <textarea class="form-control" style="width: 518px;" id="exampleFormControlTextarea1" placeholder="Message" rows="3"></textarea>
+  <br>
+  <button type="button" class="btn btn-secondary py-3 px-5" style="background: orangered;border: none; border-radius: 40px; font-size: larger;">Send Request</button>
+                </div>
+            <div class="col-md-4 py-5 my-5 col-11">
+                <div class="col-md-6 col-11 d-flex">
+                <div class="circle" style="width: 100px;height: 100px;background: orangered; border-radius: 50%;"><i class="bi bi-telephone-fill" style="font-size: xx-large;margin-left: 34px;margin-top: 25px;position: absolute;color: #fff;"></i></div>
+                <h4>Call Me</h4>
+                <h5 style="position: absolute; margin-left: 6.4rem;margin-top: 2rem;">+880254615566<br>
+                    +880254615566</h5>
+                </div>
+                <br>
+
+
+                <div class="col-md-6 col-11 d-flex">
+                    <div class="circle" style="width: 100px;height: 100px;background: orangered; border-radius: 50%;"><i class="bi bi-envelope" style="font-size: xx-large;margin-left: 34px;margin-top: 25px;position: absolute;color: #fff;"></i></div>
+                    <h4>Email Us</h4>
+                    <h5 style="position: absolute; margin-left: 6.4rem;margin-top: 2rem;">info@example.com<br>
+                        info@example.com
+                        </h5>
+                    </div>
+                    <br>
+
+
+                    <div class="col-md-6 col-11 d-flex">
+                        <div class="circle" style="width: 100px;height: 100px;background: orangered; border-radius: 50%;"><i class="bi bi-envelope" style="font-size: xx-large;margin-left: 34px;margin-top: 25px;position: absolute;color: #fff;"></i></div>
+                        <h4>Address</h4>
+                        <h5 style="position: absolute; margin-left: 6.4rem;margin-top: 2rem;">20, 25 Dhaka,0123<br>
+                            Ratrba baraj,20
+                            </h5>
+                        </div>
+                
+
+            </div>
+
+
+        </div>
+
+        <br>
+        <hr>
+
+        <div class="col-md-12 py-5 my-4 bg-dark col-12">
+            <div class="px-5">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387191.0362037066!2d-74.30934783289942!3d40.69753994025141!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2s!4v1686923673307!5m2!1sen!2s " class="img-fluid" width="1190" height="550" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <br>
+            <br>
+        </div>
+
+
+             
+    <div class="row text-white bg-dark d-flex justify-content-around align-item-center" id="banner">
+            <div class="col-md-5 col-12 " id="banner-text1">
+                <h5 style="color: orangered;">LATEST NEWS</h5>
+                <h1>Blog Latest of News tricks & Updates</h1>
+            </div> 
+
+            <div class="col-md-4 col-12" id="banner-text2" style="width: 27rem;">
+                
+                <p>Promote your blog posts, case udie, and product ouncems with the the branded videoscustomers coming back for services Makes best effort.
+
+                </p>
+            </div>
+
+            <div class="row text-white justify-content-center px-5 mx-3 " id="blog">
+                <br>
+                <br>
+                <div class="col-md-4 col-11 mt-5 mb-5">
+                    <img src="/blog1.png" class="img-fluid" style="border-radius: 5px;" alt="">
+                    <div class="article-detail">
+                        <button type="button" class="btn btn-primary mt-3" style="background: orangered; border: none;">UI /UX DESIGN</button>
+                        <br>
+                        <br>
+                        <h4>Angular team request to <br>blog</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel dolore repudiandae nesciunt explicabo fugiat ducimus .</p>
+                    </div>
+                  
+                </div>
+                <div class="col-md-4 col-11 mt-5 mb-5">
+                    <img src="/blog2.png" class="img-fluid" alt="">
+                    <div class="article-detail">
+                        <button type="button" class=" btn btn-primary mt-3" style="background: orangered; border: none;">HTML AND CSS</button>
+                        <br>
+                        <br>
+                        <h4>How to create a website<br>using html</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel dolore repudiandae nesciunt explicabo fugiat ducimus .</p>
+                       
+                    </div>
+                              
+                </div>
+                <div class="col-md-4 col-11 mt-5 mb-5">
+                    <img src="/blog3.png" class="img-fluid" alt="">
+                    <div class="article-detail">
+                        <button type="button" class="btn btn-primary mt-3" style="background: orangered; border: none;">SHOPIFY</button>
+                        <br>
+                        <br>
+                        <h4>We make team enlarges request to blog</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel dolore repudiandae nesciunt explicabo fugiat ducimus .</p>
+                    </div>
+                  
+                </div> 
+                </div>
+                <br>
+                <br>
+                <br>
+                <hr>
+
+                <div class="row bg-dark py-4 mx-1 text-white d-flex justify-content-between">
+                    <div class="col-lg-4 col-11">
+                    <h5>Developed with <i class="bi bi-heart-fill"></i> by 
+                        <span style="color: orangered;">Morex</span> © 2023</h5>
+                    </div>
+                    <div class="col-lg-4 col-11 d-flex justify-content-evenly">
+                            <h5>Terms & Condition</h5>
+                            <h5>Privacy Policy</h5>
+                   
+                        
+                    </div>
+                </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+
+
+
+
+
+
+            
+
+
+
+          
+          
+
+
+
+      
+
+
+           
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    <br>
+    <br>
+      
+    
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+   
+
+
+
+
+
+
+
+    
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+
+
+</body>
+</html>
